@@ -137,6 +137,11 @@ a#link {
   color: var(--cyan-main);
 }
 
+pre p {
+  font-size: 1.1vh;
+  text-align: left;
+}
+
 code {
   padding: 0.1em;
   background-color: #16161c38;
