@@ -141,7 +141,7 @@ a#link {
   color: var(--cyan-main);
 }
 
-pre p {
+pre {
   font-size: 1.1vh;
   text-align: left;
 }
