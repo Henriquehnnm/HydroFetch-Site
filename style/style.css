@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: Hack;
-  src: url(fonts/Hack.ttf);
+  src: url(../fonts/Hack.ttf);
 }
 
 :root {
@@ -39,13 +39,17 @@
 
   /* 🍑 Laranja */
   --peach-sunset: #FAB28E;
+
+  /*Fonte*/
+
+  --hack: Hack;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: var(--hack), sans-serif;
 }
 
 html, body {
@@ -53,7 +57,7 @@ html, body {
   background-color: var(--light);
   color: var(--black-deep);
   line-height: 1.6;
-  font-family: Hack, sans-serif;
+  font-family: var(--hack), sans-serif;
 }
 
 header {
