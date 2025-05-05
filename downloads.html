@@ -7,18 +7,26 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="midia/favicon.png" type="image/x-icon">
 </head>
+
+<!--Pagina de downloads-->
+
 <body class="bg-white text-gray-900 font-sans min-h-screen flex flex-col">
+
+<!-- Cabecalho -->
 
 <header class="bg-gray-900 text-gray-100 w-full p-5 border-b border-black">
     <div class="flex justify-between items-center max-w-6xl mx-auto">
         <h1 class="text-2xl font-bold">HydroFetch</h1>
+
         <!-- Botão hambúrguer (visível só no mobile) -->
         <button id="menu-btn" class="md:hidden text-2xl">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 12h16"/><path d="M4 18h16"/><path d="M4 6h16"/></svg>
         </button>
 
         <!-- Menu de navegação -->
+
         <nav id="menu" class="hidden md:flex space-x-6 ml-auto items-center">
+
             <!-- Home -->
             <div class="flex items-center space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house w-5 h-5">
@@ -60,7 +68,9 @@
     </div>
 
     <!-- Menu mobile (dropdown) -->
+
     <div id="mobile-menu" class="md:hidden hidden mt-2 space-y-4 text-center">
+
         <!-- Home -->
         <div class="flex items-center justify-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house w-5 h-5">
@@ -101,6 +111,8 @@
     </div>
 </header>
 
+<!--JavaScript-->
+
 <script>
     const btn = document.getElementById('menu-btn');
     const menu = document.getElementById('mobile-menu');
@@ -110,13 +122,21 @@
     });
 </script>
 
+<!--Conteúdo-->
+
 <main class="max-w-3xl mx-auto p-6 flex-grow">
+
+<!--Tutorial-->
+
     <section>
         <h1 class="text-xl font-bold mb-4">Download</h1>
         <p class="leading-relaxed">
             Para usar o HydroFetch, copie o script do HydroFetch
             <a class="text-blue-500 hover:text-blue-700" href="https://raw.githubusercontent.com/Henriquehnnm/HydroFetch/refs/heads/main/Fetch-scripts/hydrofetch.sh" target="_blank" id="link">aqui</a>, cole em um arquivo chamado <code>.hydrofetch.sh</code> na sua home, no terminal, execute <code>chmod +x .hydrofetch.sh</code>, e poderá executar com <code>./.hydrofetch.sh</code>, a script baixará o FIGlet.
         </p>
+
+        <!--Requisitos-->
+
         <p class="leading-relaxed">Requisitos:
         <ul class="list-disc pl-5">
             <li>Sistema Linux baseado no Debian, Arch, Fedora ou Alpine.</li>
@@ -126,9 +146,10 @@
     </section>
 </main>
 
-<footer class="bg-gray-900 text-gray-100 w-full p-2 mt-8 border-t border-black text-center text-sm">
-    <p>Site desenvolvido por <a class="text-gray-400 hover:text-gray-500" href="https://github.com/Henriquehnnm" target="_blank">Henrique Sardinha</a></p>
-</footer>
+    <!--Rodapé-->
 
+    <footer class="bg-gray-900 text-gray-100 w-full p-2 mt-8 border-t border-black text-center text-sm">
+        <p>Site desenvolvido por <a class="text-gray-400 hover:text-gray-500" href="https://github.com/Henriquehnnm" target="_blank">Henrique Sardinha</a></p>
+    </footer>
 </body>
 </html>

@@ -7,7 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="midia/favicon.png" type="image/x-icon">
 </head>
+
+<!--Pagina de informacoes-->
+
 <body class="bg-white text-gray-900 font-sans">
+
+<!-- Cabecalho -->
 
 <header class=" bg-gray-900 text-gray-100 w-full p-5 border-b border-black">
     <div class="flex justify-between items-center max-w-6xl mx-auto">
@@ -19,7 +24,9 @@
         </button>
 
         <!-- Menu de navegação -->
+
         <nav id="menu" class="hidden md:flex space-x-6 ml-auto items-center">
+
             <!-- Home -->
             <div class="flex items-center space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house w-5 h-5">
@@ -61,7 +68,9 @@
     </div>
 
     <!-- Menu mobile (dropdown) -->
+
     <div id="mobile-menu" class="md:hidden hidden mt-2 space-y-4 text-center">
+
         <!-- Home -->
         <div class="flex items-center justify-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house w-5 h-5">
@@ -102,6 +111,8 @@
     </div>
 </header>
 
+<!--JavaScript-->
+
 <script>
     const btn = document.getElementById('menu-btn');
     const menu = document.getElementById('mobile-menu');
@@ -110,6 +121,8 @@
         menu.classList.toggle('hidden');
     });
 </script>
+
+<!--Novidades-->
 
 <main class="max-w-3xl mx-auto p-6">
         <section>
@@ -120,10 +133,16 @@
             <h2 class="text-lg font-semibold mb-2">Notas de lançamento da verção 2.2.5</h2>
             <p class="leading-relaxed">É com muita alegria que anuncio as novidades da nova verção do NeonFetch, agora renomeado para HydroFetch, e com suporte a fontes externas para o nome da distro em ASCII Art! Para usar, basta baixar uma fonte qualquer para o FiGlet com a extençao .flf, e colocá-la em <code>~/.hydrofetch/Custom.flf</code> e o NeonFetch a reconhecerá automaticamente, e caso não exista nenhuma fonte customizada, ele usará a fonte padrão do FiGlet. Espero que gostem!
         </section>
+
+    <!--Sobre o HydroFetch-->
+
+        <!--Introdução-->
         <section class="mt-6">
             <h1 class="text-xl font-bold mb-4">Sobre o HydroFetch</h1>
             <p class="leading-relaxed">HydroFetch é um utilitário leve, rápido e personalizável, criado para exibir informações do sistema de forma elegante diretamente no terminal. Inspirado por ferramentas como neofetch, fastfetch e screenfetch, o HydroFetch foi desenvolvido com o objetivo de unir simplicidade visual e funcionalidade, com um foco especial em estética minimalista e integração com temas modernos.
             Enquanto outras ferramentas podem sobrecarregar a tela com blocos de texto e elementos gráficos excessivos, o HydroFetch busca o equilíbrio: fornece exatamente as informações que o usuário deseja, no estilo mais limpo e organizado possível.</p>
+
+            <!--Objetivos do Projeto-->
             <h2 class="text-lg font-semibold mb-2">Objetivos do Projeto</h2>
             <p class="leading-relaxed">
                 O HydroFetch nasceu com os seguintes objetivos: <br>
@@ -135,6 +154,8 @@
                 <li>Integrar-se perfeitamente com o visual do sistema, criando automaticamente o ASCII da Distribuição em que estiver instalado</li>
                 <li>Ser fácil de instalar, configurar e adaptar para uso em screenshots, apresentações de setup, ou ricing de ambientes.</li>
             </ul>
+
+            <!--Informações exibidas-->
             <h2 class="text-lg font-semibold mb-2">Informações exibidas</h2>
                 <p class="leading-relaxed">
                     O HydroFetch nasceu com os seguintes objetivos: <br>
@@ -150,12 +171,18 @@
                 <li>Uso/total de RAM</li>
                 <li>Cores do Terminal</li>
             </ul>
+
+            <!--Por que o nome "Hydrofetch"?-->
             <h2 class="text-lg font-semibold mb-2">Por que "Hydrofetch"?</h2>
             <p class="leading-relaxed">O nome "Hydrofetch" é uma referência à leveza do gás Hidrogênio. A ideia é que o Hydrofetch seja como isso: uma ferramenta discreta, mas que se destaca pelo design e pela clareza com que apresenta as informações.</p>
         </section>
     </main>
-<footer class="bg-gray-900 text-gray-100 w-full p-2 mt-8 border-t border-black text-center text-sm">
-    <p>Site desenvolvido por <a class="text-gray-400 hover:text-gray-500" href="https://github.com/Henriquehnnm" target="_blank">Henrique Sardinha</a></p>
-</footer>
+
+
+    <!--Rodapé-->
+
+    <footer class="bg-gray-900 text-gray-100 w-full p-2 mt-8 border-t border-black text-center text-sm">
+        <p>Site desenvolvido por <a class="text-gray-400 hover:text-gray-500" href="https://github.com/Henriquehnnm" target="_blank">Henrique Sardinha</a></p>
+    </footer>
 </body>
 </html>
