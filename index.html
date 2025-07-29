@@ -1,216 +1,320 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HydroFetch - Uma nova maneira de ver o sistema</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="midia/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header class="glass-header">
-        <nav class="navbar">
-            <a href="#home" class="logo">
-                <img src="midia/logo.png" alt="HydroFetch Logo">
-                <span>HydroFetch</span>
-            </a>
-            <ul class="nav-links">
-                <li><a href="#home"><span><i class="fas fa-home"></i></span> Home</a></li>
-                <li><a href="#features"><span><i class="fas fa-star"></i></span> Recursos</a></li>
-                <li><a href="#sobre-novidades"><span><i class="fas fa-info-circle"></i></span> Sobre & Novidades</a></li>
-                <li><a href="#downloads"><span><i class="fas fa-download"></i></span> Download</a></li>
-                <li><a href="https://github.com/Henriquehnnm/HydroFetch" target="_blank"><span><i class="fab fa-github"></i></span> Repositório</a></li>
-            </ul>
-            <button class="mobile-menu-icon" id="menu-btn"><i class="fas fa-bars"></i></button>
-        </nav>
-        <div class="mobile-menu" id="mobile-menu">
-            <a href="#home">Home</a>
-            <a href="#features">Recursos</a>
-            <a href="#sobre-novidades">Sobre & Novidades</a>
-            <a href="#downloads">Download</a>
-            <a href="https://github.com/Henriquehnnm/HydroFetch" target="_blank">Repositório</a>
-        </div>
+      <nav class="navbar">
+        <a href="#home" class="logo">
+          <img src="midia/logo.png" alt="HydroFetch Logo" />
+          <span>HydroFetch</span>
+        </a>
+        <ul class="nav-links">
+          <li>
+            <a href="#home"
+              ><span><i class="fas fa-home"></i></span> Home</a
+            >
+          </li>
+          <li>
+            <a href="#features"
+              ><span><i class="fas fa-star"></i></span> Recursos</a
+            >
+          </li>
+          <li>
+            <a href="#sobre-novidades"
+              ><span><i class="fas fa-info-circle"></i></span> Sobre &
+              Novidades</a
+            >
+          </li>
+          <li>
+            <a href="#downloads"
+              ><span><i class="fas fa-download"></i></span> Download</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/Henriquehnnm/HydroFetch" target="_blank"
+              ><span><i class="fab fa-github"></i></span> Repositório</a
+            >
+          </li>
+        </ul>
+        <button class="mobile-menu-icon" id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#features">Recursos</a>
+        <a href="#sobre-novidades">Sobre & Novidades</a>
+        <a href="#downloads">Download</a>
+        <a href="https://github.com/Henriquehnnm/HydroFetch" target="_blank"
+          >Repositório</a
+        >
+      </div>
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1>Bem-vindo ao HydroFetch</h1>
-                <p>Uma ferramenta de busca de informações de sistema moderna e personalizável para seu terminal.</p>
-                <a href="#downloads" class="btn-cta">Baixe agora</a>
-            </div>
-            <div class="hero-image">
-                <img src="midia/screenshot.png" alt="Screenshot do HydroFetch" />
-            </div>
-        </section>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Bem-vindo ao HydroFetch</h1>
+          <p>
+            Uma ferramenta de busca de informações de sistema moderna e
+            personalizável para seu terminal.
+          </p>
+          <a href="#downloads" class="btn-cta">Baixe agora</a>
+        </div>
+        <div class="hero-image">
+          <img src="midia/screenshot.png" alt="Screenshot do HydroFetch" />
+        </div>
+      </section>
 
-        <section id="features">
-            <h2 class="section-title">Recursos</h2>
-            <div class="feature-cards">
-                <div class="card">
-                    <i class="fas fa-cogs feature-icon"></i>
-                    <h3>Altamente Personalizável</h3>
-                    <p>Personalize quase todos os aspectos do HydroFetch para se adequar ao seu gosto.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-bolt feature-icon"></i>
-                    <h3>Rápido e Leve</h3>
-                    <p>Escrito em Bash, o HydroFetch é extremamente rápido e consome poucos recursos.</p>
-                </div>
-            </div>
-        </section>
+      <section id="features">
+        <h2 class="section-title">Recursos</h2>
+        <div class="feature-cards">
+          <div class="card">
+            <i class="fas fa-cogs feature-icon"></i>
+            <h3>Altamente Personalizável</h3>
+            <p>
+              Personalize quase todos os aspectos do HydroFetch para se adequar
+              ao seu gosto.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-bolt feature-icon"></i>
+            <h3>Rápido e Leve</h3>
+            <p>
+              Escrito em Bash, o HydroFetch é extremamente rápido e consome
+              poucos recursos.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <section id="sobre-novidades">
-            <h2 class="section-title">Sobre & Novidades</h2>
-            <div class="sobre-novidades-container">
-                <div class="sobre-coluna">
-                    <div class="sobre-bloco">
-                        <h3>O que é o HydroFetch?</h3>
-                        <p>HydroFetch é um utilitário de linha de comando escrito em Shell Script, criado para exibir informações do sistema de forma elegante e organizada diretamente no terminal. Inspirado por ferramentas como Neofetch, ele usa o Figlet para gerar a arte ASCII do nome da sua distribuição e ícones Nerd Font para uma apresentação visual limpa.</p>
-                    </div>
-                    <div class="sobre-bloco">
-                        <h3>Recursos Principais</h3>
-                        <ul class="recursos-lista">
-                            <li><strong>Duas Visualizações:</strong> Uma visualização padrão, bonita e concisa, e uma completa com o parâmetro <code>--all</code> para quem precisa de todos os detalhes.</li>
-                            <li><strong>Fontes Customizadas:</strong> Personalize a arte ASCII do seu sistema operacional! Basta adicionar um arquivo de fonte Figlet (<code>Custom.flf</code>) na pasta <code>~/.hydrofetch</code>.</li>
-                            <li><strong>Instalação de Dependências:</strong> O script verifica e instala automaticamente o Figlet, caso ele não esteja presente no seu sistema.</li>
-                            <li><strong>Easter Egg:</strong> Descubra um segredo com o parâmetro <code>--tux</code>.</li>
-                        </ul>
-                    </div>
-                    <div class="sobre-bloco">
-                        <h3>Informações Exibidas</h3>
-                        <div class="info-exibidas-container">
-                            <div class="info-coluna">
-                                <h4>Visualização Padrão</h4>
-                                <ul>
-                                    <li>Arte ASCII do SO</li>
-                                    <li>Usuário</li>
-                                    <li>Host</li>
-                                    <li>Sistema Operacional</li>
-                                    <li>Kernel</li>
-                                    <li>Ambiente de Desktop (DE)</li>
-                                    <li>Uso de RAM</li>
-                                    <li>Cores do Terminal</li>
-                                </ul>
-                            </div>
-                            <div class="info-coluna">
-                                <h4>Visualização Completa (--all)</h4>
-                                <ul>
-                                    <li>Hostname e Distribuição</li>
-                                    <li>Kernel, Arquitetura e Tipo de SO</li>
-                                    <li>Modelo e núcleos da CPU</li>
-                                    <li>Memória RAM Total</li>
-                                    <li>Uso de Disco</li>
-                                    <li>Usuário Logado e diretório Home</li>
-                                    <li>Uptime do Sistema</li>
-                                    <li>Endereço IP e Interface de Rede</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="novidades-coluna">
-                    <h3>Últimas Atualizações</h3>
-                    <div class="changelog">
-                        <div class="changelog-entry">
-                            <div class="changelog-header">
-                                <h2>Bem-vindo ao HydroFetch!</h2>
-                                <span class="changelog-date">10 de Junho de 2024</span>
-                            </div>
-                            <div class="changelog-body">
-                                <p>O HydroFetch agora tem um site! Aqui você encontrará tudo o que precisa para começar, incluindo links para download e informações sobre o projeto.</p>
-                            </div>
-                        </div>
-                        <div class="changelog-entry">
-                            <div class="changelog-header">
-                                <h2>Script Aprimorado</h2>
-                                <span class="changelog-date">15 de Junho de 2024</span>
-                            </div>
-                            <div class="changelog-body">
-                                <p>O script do HydroFetch foi melhorado, agora suportando sistemas baseados em Alpine, Fedora, Arch e Debian.</p>
-                            </div>
-                        </div>
-                        <div class="changelog-entry">
-                            <div class="changelog-header">
-                                <h2>Novos Recursos</h2>
-                                <span class="changelog-date">20 de Junho de 2024</span>
-                            </div>
-                            <div class="changelog-body">
-                                <p>Adicionamos novas funcionalidades, incluindo a capacidade de personalizar cores e a adição de mais informações do sistema.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section id="sobre-novidades">
+        <h2 class="section-title">Sobre & Novidades</h2>
+        <div class="sobre-novidades-container">
+          <div class="sobre-coluna">
+            <div class="sobre-bloco">
+              <h3>O que é o HydroFetch?</h3>
+              <p>
+                HydroFetch é um utilitário de linha de comando escrito em Shell
+                Script, criado para exibir informações do sistema de forma
+                elegante e organizada diretamente no terminal. Inspirado por
+                ferramentas como Neofetch, ele usa o Figlet para gerar a arte
+                ASCII do nome da sua distribuição e ícones Nerd Font para uma
+                apresentação visual limpa.
+              </p>
             </div>
-        </section>
-
-        <section id="downloads">
-            <h2 class="section-title">Como Instalar o HydroFetch</h2>
-            <div class="installation-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Copie o Script</h3>
-                        <p>Primeiro, pegue o script de instalação diretamente do nosso repositório.
-                        <a href="https://raw.githubusercontent.com/Henriquehnnm/HydroFetch/refs/heads/main/Fetch-scripts/hydrofetch.sh" target="_blank" class="link">Clique aqui para ver o script</a>.</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>Salve o Arquivo</h3>
-                        <p>Salve o conteúdo copiado em um arquivo chamado <code>.hydrofetch.sh</code> na sua pasta home (<code>~/</code>).</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Dê Permissão de Execução</h3>
-                        <p>Abra seu terminal e execute o seguinte comando para tornar o script executável:</p>
-                        <pre><code>chmod +x ~/.hydrofetch.sh</code></pre>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Execute</h3>
-                        <p>Agora você pode rodar o HydroFetch com:</p>
-                        <pre><code>~/.hydrofetch.sh</code></pre>
-                        <p>O script se encarregará de baixar as dependências necessárias, como o FIGlet.</p>
-                    </div>
-                </div>
+            <div class="sobre-bloco">
+              <h3>Recursos Principais</h3>
+              <ul class="recursos-lista">
+                <li>
+                  <strong>Duas Visualizações:</strong> Uma visualização padrão,
+                  bonita e concisa, e uma completa com o parâmetro
+                  <code>--all</code> para quem precisa de todos os detalhes.
+                </li>
+                <li>
+                  <strong>Fontes Customizadas:</strong> Personalize a arte ASCII
+                  do seu sistema operacional! Basta adicionar um arquivo de
+                  fonte Figlet (<code>Custom.flf</code>) na pasta
+                  <code>~/.hydrofetch</code>.
+                </li>
+                <li>
+                  <strong>Instalação de Dependências:</strong> O script verifica
+                  e instala automaticamente o Figlet, caso ele não esteja
+                  presente no seu sistema.
+                </li>
+                <li>
+                  <strong>Easter Egg:</strong> Descubra um segredo com o
+                  parâmetro <code>--tux</code>.
+                </li>
+              </ul>
             </div>
-
-            <div class="requirements-section">
-                <h2 class="section-title">Requisitos</h2>
-                <div class="requirements-list">
-                     <div class="requirement-item">
-                        <i class="fas fa-check-circle"></i>
-                        <p>Um sistema operacional baseado em <strong>Linux</strong> (Debian, Arch, Fedora, Alpine, etc.).</p>
-                    </div>
-                     <div class="requirement-item">
-                        <i class="fas fa-check-circle"></i>
-                        <p>Uma <strong>Nerd Font</strong> instalada e configurada no seu emulador de terminal.</p>
-                    </div>
+            <div class="sobre-bloco">
+              <h3>Informações Exibidas</h3>
+              <div class="info-exibidas-container">
+                <div class="info-coluna">
+                  <h4>Visualização Padrão</h4>
+                  <ul>
+                    <li>Arte ASCII do SO</li>
+                    <li>Usuário</li>
+                    <li>Host</li>
+                    <li>Sistema Operacional</li>
+                    <li>Kernel</li>
+                    <li>Ambiente de Desktop (DE)</li>
+                    <li>Uso de RAM</li>
+                    <li>Cores do Terminal</li>
+                  </ul>
                 </div>
+                <div class="info-coluna">
+                  <h4>Visualização Completa (--all)</h4>
+                  <ul>
+                    <li>Hostname e Distribuição</li>
+                    <li>Kernel, Arquitetura e Tipo de SO</li>
+                    <li>Modelo e núcleos da CPU</li>
+                    <li>Memória RAM Total</li>
+                    <li>Uso de Disco</li>
+                    <li>Usuário Logado e diretório Home</li>
+                    <li>Uptime do Sistema</li>
+                    <li>Endereço IP e Interface de Rede</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="novidades-coluna">
+            <h3>Últimas Atualizações</h3>
+            <div class="changelog">
+              <div class="changelog-entry">
+                <div class="changelog-header">
+                  <h2>Bem-vindo ao HydroFetch!</h2>
+                  <span class="changelog-date">10 de Junho de 2024</span>
+                </div>
+                <div class="changelog-body">
+                  <p>
+                    O HydroFetch agora tem um site! Aqui você encontrará tudo o
+                    que precisa para começar, incluindo links para download e
+                    informações sobre o projeto.
+                  </p>
+                </div>
+              </div>
+              <div class="changelog-entry">
+                <div class="changelog-header">
+                  <h2>Script Aprimorado</h2>
+                  <span class="changelog-date">15 de Junho de 2024</span>
+                </div>
+                <div class="changelog-body">
+                  <p>
+                    O script do HydroFetch foi melhorado, agora suportando
+                    sistemas baseados em Alpine, Fedora, Arch e Debian.
+                  </p>
+                </div>
+              </div>
+              <div class="changelog-entry">
+                <div class="changelog-header">
+                  <h2>Novos Recursos</h2>
+                  <span class="changelog-date">20 de Junho de 2024</span>
+                </div>
+                <div class="changelog-body">
+                  <p>
+                    Adicionamos novas funcionalidades, incluindo a capacidade de
+                    personalizar cores e a adição de mais informações do
+                    sistema.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="call-to-action">
-            <h2>Pronto para começar?</h2>
-            <p>Leve seu terminal para o próximo nível com o HydroFetch.</p>
-            <a href="https://github.com/Henriquehnnm/HydroFetch" class="btn-cta-secondary">Contribua no GitHub</a>
-        </section>
+      <section id="downloads">
+        <h2 class="section-title">Como Instalar o HydroFetch</h2>
+        <div class="installation-steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Copie o Script</h3>
+              <p>
+                Primeiro, pegue o script de instalação diretamente do nosso
+                repositório.
+                <a
+                  href="https://raw.githubusercontent.com/Henriquehnnm/HydroFetch/refs/heads/main/Fetch-scripts/hydrofetch.sh"
+                  target="_blank"
+                  class="link"
+                  >Clique aqui para ver o script</a
+                >.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Salve o Arquivo</h3>
+              <p>
+                Salve o conteúdo copiado em um arquivo chamado
+                <code>.hydrofetch.sh</code> na sua pasta home (<code>~/</code>).
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Dê Permissão de Execução</h3>
+              <p>
+                Abra seu terminal e execute o seguinte comando para tornar o
+                script executável:
+              </p>
+              <pre><code>chmod +x ~/.hydrofetch.sh</code></pre>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3>Execute</h3>
+              <p>Agora você pode rodar o HydroFetch com:</p>
+              <pre><code>~/.hydrofetch.sh</code></pre>
+              <p>
+                O script se encarregará de baixar as dependências necessárias,
+                como o FIGlet.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="requirements-section">
+          <h2 class="section-title">Requisitos</h2>
+          <div class="requirements-list">
+            <div class="requirement-item">
+              <i class="fas fa-check-circle"></i>
+              <p>
+                Um sistema operacional baseado em
+                <strong>Linux</strong> (Debian, Arch, Fedora, Alpine, etc.).
+              </p>
+            </div>
+            <div class="requirement-item">
+              <i class="fas fa-check-circle"></i>
+              <p>
+                Uma <strong>Nerd Font</strong> instalada e configurada no seu
+                emulador de terminal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="call-to-action">
+        <h2>Pronto para começar?</h2>
+        <p>Leve seu terminal para o próximo nível com o HydroFetch.</p>
+        <a
+          href="https://github.com/Henriquehnnm/HydroFetch"
+          class="btn-cta-secondary"
+          >Contribua no GitHub</a
+        >
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 HydroFetch. Todos os direitos reservados.</p>
+      <p>&copy; 2024 HydroFetch. Todos os direitos reservados.</p>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
